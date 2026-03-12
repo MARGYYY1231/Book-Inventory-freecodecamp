@@ -1,0 +1,11 @@
+.read{
+  background-image: linear-gradient(to right, #c8e6c9, #a5d6a7);
+}
+
+.to-read{
+  background-image: linear-gradient(to right, #e3f2fd, #bbdefb);
+} 
+
+.in-progress{
+    background-image: linear-gradient(to right, #fff3e0, #ffe0b2);
+}
