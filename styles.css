@@ -16,17 +16,20 @@ span{
 
 tr[class="to-read"] span[class="status"]{
   border: 1px solid #ccc;
+  border-radius: 4px;
   background-image: linear-gradient(to bottom, #e3f2fd, #0d87eb);
 
 }
 
 tr[class="in-progress"] span[class="status"]{
   border: 1px solid #ccc;
+  border-radius: 4px;
   background-image: linear-gradient(to bottom, #e1a139, #eec383);
 }
 
 tr[class="read"] span[class="status"]{
   border: 1px solid #ccc;
+  border-radius: 4px;
   background-image: linear-gradient(to bottom, #c8e6c9, #43d247);
 }
 
