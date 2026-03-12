@@ -29,3 +29,9 @@ tr[class="read"] span[class="status"]{
   border: 1px solid #ccc;
   background-image: linear-gradient(to bottom, #c8e6c9, #43d247);
 }
+
+span[class="status"], span[class^="rate"]{
+    padding: 5px 10px;
+    height: 20px;
+    width: 80px;
+}
