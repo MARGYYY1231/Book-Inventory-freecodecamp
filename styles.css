@@ -36,6 +36,10 @@ span[class="status"], span[class^="rate"]{
     width: 80px;
 }
 
+/* 
+Selects classes that start with "rate" and applies styles to the span elements within them. 
+It gives them a border, rounded corners, margin, specific height and width, and a background color. 
+*/
 span[class^="rate"] > span{
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -43,4 +47,21 @@ span[class^="rate"] > span{
     height: 18px;
     width: 18px;
     background-color: #f0f0f0;
+}
+
+/*
+Selects the first child span element within any span that has a class containing "one" in its classlist and applies a linear gradient background to it. 
+This is likely used to visually represent a rating of "one" in a rating system, giving it a distinct color gradient to differentiate it from other ratings. 
+*/
+span[class~="one"] > span:first-child{
+    background-image: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+span[class~="two"] > span:first-child,
+span[class~="two"] > span:nth-child(2){
+    background-image: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+span[class~="three"] > span{
+    background-image: linear-gradient(to right, #ff9a9e, #fad0c4);
 }
