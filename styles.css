@@ -1,11 +1,15 @@
-.read{
+tr[class="read"]{
   background-image: linear-gradient(to right, #c8e6c9, #a5d6a7);
 }
 
-.to-read{
+tr[class="to-read"]{
   background-image: linear-gradient(to right, #e3f2fd, #bbdefb);
 } 
 
-.in-progress{
+tr[class="in-progress"]{
     background-image: linear-gradient(to right, #fff3e0, #ffe0b2);
+}
+
+span{
+  display: inline-block;
 }
